@@ -68,6 +68,7 @@ function ProjectsPage() {
                 height={p.height}
                 className="w-full object-cover"
               />
+              <div className="veil pointer-events-none absolute inset-x-0 bottom-0 h-1/2" />
               <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 p-5">
                 <div>
                   <p className="eyebrow">

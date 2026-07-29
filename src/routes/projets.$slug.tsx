@@ -145,6 +145,7 @@ function ProjectDetail() {
                   height={p.height}
                   className="h-72 w-full object-cover"
                 />
+                <div className="veil pointer-events-none absolute inset-x-0 bottom-0 h-1/2" />
                 <div className="absolute inset-x-0 bottom-0 p-5">
                   <p className="eyebrow">{p.category}</p>
                   <h3 className="font-display mt-1.5 text-xl">{p.title}</h3>
