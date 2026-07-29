@@ -199,6 +199,15 @@
   background-image: var(--gradient-veil);
 }
 
+@utility card-veil {
+  background-image: linear-gradient(
+    to top,
+    oklch(0.145 0 0 / 0.95) 0%,
+    oklch(0.145 0 0 / 0.7) 45%,
+    oklch(0.145 0 0 / 0) 100%
+  );
+}
+
 @utility reveal-up {
   animation: reveal-up 1s var(--ease-silk) both;
 }
