@@ -9,7 +9,7 @@ export const Route = createFileRoute("/contact")({
       {
         name: "description",
         content:
-          "Parlez de votre construction neuve, rénovation ou extension avec Atelier Ravel. Premier échange sur rendez-vous à Paris.",
+          "Parlez de votre construction neuve, rénovation ou extension avec Atelier Ravel. Premier échange sur rendez-vous à Lomé.",
       },
       { property: "og:title", content: "Contact — Atelier Ravel" },
       {
@@ -133,17 +133,17 @@ function ContactPage() {
         <aside className="space-y-8">
           <div className="border border-border">
             <iframe
-              title="Localisation de l'agence à Paris"
+              title="Localisation de l'agence à Lomé"
               className="h-72 w-full grayscale invert-[0.92]"
               loading="lazy"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=2.3650%2C48.8530%2C2.3900%2C48.8680&layer=mapnik"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=1.1900%2C6.1100%2C1.3100%2C6.2300&layer=mapnik"
             />
           </div>
           <div className="space-y-2 text-sm text-muted-foreground">
             <p className="eyebrow">Atelier</p>
-            <p className="text-foreground">18 quai des Ateliers, 75011 Paris</p>
+            <p className="text-foreground">Boulevard du Mono, Lomé — Togo</p>
             <p>bonjour@atelier-ravel.fr</p>
-            <p>+33 1 84 20 11 09</p>
+            <p>+228 90 00 00 00</p>
             <p className="pt-4">Lundi – vendredi, 9h – 19h</p>
           </div>
         </aside>

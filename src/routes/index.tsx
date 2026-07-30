@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Cabinet d'architecture de luxe à Paris : résidences contemporaines, projets commerciaux, design d'intérieur et urbanisme.",
+          "Cabinet d'architecture de luxe à Lomé : résidences contemporaines, projets commerciaux, design d'intérieur et urbanisme.",
       },
       { property: "og:title", content: "Atelier Ravel — Architecte contemporain" },
       {

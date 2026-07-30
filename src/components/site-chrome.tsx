@@ -30,9 +30,14 @@ export function SiteHeader() {
       )}
     >
       <div className="mx-auto flex max-w-[1600px] items-center justify-between px-6 md:px-12">
-        <Link to="/" className="font-display text-lg tracking-[0.2em] uppercase">
-          Atelier<span className="text-bronze">·</span>Ravel
-        </Link>
+        <div className="flex items-center gap-6">
+          <Link to="/" className="font-display text-lg tracking-[0.2em] uppercase">
+            Atelier<span className="text-bronze">·</span>Ravel
+          </Link>
+          <span className="hidden text-xs tracking-[0.2em] text-muted-foreground uppercase lg:inline-block">
+            Lomé — Togo
+          </span>
+        </div>
 
         <nav className="hidden items-center gap-10 md:flex">
           {nav.map((item) => (
@@ -104,8 +109,8 @@ export function SiteFooter() {
           </p>
         </div>
         <div className="text-sm text-muted-foreground">
-          <p>18 quai des Ateliers, 75011 Paris</p>
-          <p className="mt-1">bonjour@atelier-ravel.fr — +33 1 84 20 11 09</p>
+          <p>Boulevard du Mono, Lomé — Togo</p>
+          <p className="mt-1">bonjour@atelier-ravel.fr — +228 90 00 00 00</p>
           <p className="mt-6 text-xs">
             © {new Date().getFullYear()} Atelier Ravel. Tous droits réservés.
           </p>
