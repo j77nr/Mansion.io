@@ -143,7 +143,7 @@ function ContactPage() {
             <p className="eyebrow">Atelier</p>
             <p className="text-foreground">Boulevard du Mono, Lomé — Togo</p>
             <p>bonjour@atelier-ravel.fr</p>
-            <p>+33 1 84 20 11 09</p>
+            <p>+228 90 00 00 00</p>
             <p className="pt-4">Lundi – vendredi, 9h – 19h</p>
           </div>
         </aside>
