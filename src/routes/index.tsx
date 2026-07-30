@@ -51,7 +51,7 @@ function Index() {
         />
         <div className="veil absolute inset-0" />
         <div className="absolute inset-x-0 bottom-0 mx-auto max-w-[1600px] px-6 pb-20 md:px-12 md:pb-24">
-          <p className="eyebrow reveal-up">Cabinet d'architecture contemporaine — Paris</p>
+          <p className="eyebrow reveal-up">CABINET D'ARCHITECTURE CONTEMPORAINE — LOMÉ</p>
           <h1 className="reveal-up font-display mt-6 max-w-5xl text-[clamp(2.75rem,8vw,7rem)] leading-[0.92]">
             Façonner l'espace,
             <br />
