@@ -1,24 +1,25 @@
-# Movable Sync
+# Atelier Ravel
 
-Build a simple portfolio skeleton (Povable Syncing: MYA5)
+Site éditorial de l’Atelier Ravel, consacré à l’architecture contemporaine, au design intérieur et aux projets du studio.
 
-This project was built with [Lovable](https://lovable.dev).
+## Stack
 
-## Build with Lovable
+- React et TypeScript
+- TanStack Start et TanStack Router
+- Vite et Tailwind CSS
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/e5f1f24e-ec71-4607-918e-ac6613036bd8).
+## Développement local
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Prérequis : Node.js et npm.
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+npm install
 npm run dev
+```
+
+## Vérifications
+
+```sh
+npm run lint
+npm run build
 ```
